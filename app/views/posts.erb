@@ -1,0 +1,11 @@
+<div>
+  <p>
+    <% Post.all.each do |post| %>
+    <p><%= post.title %></p>
+    <p><%= post.content %></p>
+    <% tags = '' %>
+    <%= post.tags.map(&:title).join('  ') %>
+    <% end %>
+  <p><%= Tag.all%></p>
+
+  </div>

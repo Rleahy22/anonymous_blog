@@ -1,9 +1,34 @@
-.container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+@font-face {
+  font-family: "HelveticaNeue-Thin";
+  src: url('HelveticaNeue/HelveticaNeueLTPro-Th.otf');
 }
+
+.container {
+  position: fixed;
+  width: 100%;
+  margin: 20px auto;
+  padding: 0px 20px 20px 20px;
+}
+
+.container h1 {
+  font-family: "HelveticaNeue-Thin";
+  font-size: xx-large;
+  text-align: center;
+}
+
+IMG#cray{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: auto;
+}
+
+
 th {
   text-align: left;
+}
+
+body {
+  background-image: -webkit-linear-gradient(left, #696969 0%, #FFFAF0 100%);
 }
